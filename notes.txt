@@ -1,0 +1,16 @@
+Git & Github
+
+Cloning:
+    git clone "ssh"
+    ls -la      #list all including hidden
+    git init    #initialize
+    git status  #shows all files that were created/edited but not committed
+    git add .   #add all tracked or untracked files
+    git add filename.type           #or use just specific file names
+    git commit -m "description"     #must add description of update  
+    git push                        #commit to repository
+    ssh-keygen -t rsa -b 4096 -C "Luke.Josiah.Johnson@gmail.com"    #connect to github
+    ls | grep gitKey                #keygen
+    pbcopy < ~/.ssh/gitKey.pub      #copy file location to clipboard
+
+
