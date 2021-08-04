@@ -12,6 +12,9 @@ Cloning:
     ssh-keygen -t rsa -b 4096 -C "Luke.Josiah.Johnson@gmail.com"    #connect to github
     ls | grep gitKey                #keygen
     pbcopy < ~/.ssh/gitKey.pub      #copy file location to clipboard
+    git branch                      #create a new branch
+    git checkout -b nameOfBranch    #create new branch
+    git checkout master             #switch to master branch
 
 
 new testing to see if everything is working correctly
